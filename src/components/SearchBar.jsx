@@ -16,7 +16,7 @@ function SearchBar() {
     }
 
     try {
-      const response = await axios.get(`http://localhost:6449/weather-app/${cityName}`);
+      const response = await axios.get(`https://weather-app-production-11c7.up.railway.app/weather-app/${cityName}`);
       if (response.data.status === 'Success') {
         setForecastData(response.data.forecast);
         setError('');
