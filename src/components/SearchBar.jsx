@@ -74,7 +74,7 @@ function SearchBar() {
                     </div>
                     <div className="flex items-center space-x-4">
                       <img
-                        src={`https://openweathermap.org/img/wn/${day.icon}@2x.png`} // Replace with actual weather icon from API
+                        src={`https://openweathermap.org/img/wn/${day.icon}@2x.png`} 
                         alt={day.condition}
                         className="w-20"
                       />
